@@ -1,0 +1,2 @@
+# A fun alias that returns the net positive or negative lines of code added or removed for a change.
+alias golf='echo $((`git diff | egrep "^[\+]" | wc -l` - `git diff | egrep "^[\-]" | wc -l`))'

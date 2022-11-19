@@ -30,3 +30,4 @@ to_close = -178594
 earnest = 28000
 
 puts to_close + avail #+ earnest
+

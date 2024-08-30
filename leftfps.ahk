@@ -1,5 +1,7 @@
 ; Changes movement from WASD for left-handed mouse play.
 
+#MaxHotkeysPerInterval 2000
+
 ; *** primary
 ; -------------
 
@@ -28,6 +30,7 @@ $m::z
 $,::x
 $.::c
 $/::v
+$'::m
 
 $p::Tab
 
